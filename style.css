@@ -1,0 +1,44 @@
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+}
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    inset: 0 0 auto 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap:  30px;
+    background-image: linear-gradient(blue, black, blue);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:last-child {
+    margin-right: auto;
+}
+
+nav a:hover {
+    color: rgb(163, 37, 37);
+}
