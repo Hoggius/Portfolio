@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/bce6f9d4a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="assets/Jack Hogg CV.pdf" class="CV" download>Download CV</a>
+      <nav>
+        <div class="navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <section id="home" class="page-section">
+      <div class="home-text">
+        <h1>Hi, I'm <span>Alexander</span></h1>
+        <p>A Software Engineer based in the UK</p>
+        <div class="socials">
+          <a href="https://github.com/Hoggius" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/jack-alexander-h-a82b46200"
+            target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.hackerrank.com/profile/jackalexander201"
+            target="_blank"
+            ><i class="fa-brands fa-hackerrank"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="page-section">
+      <h2>About Me</h2>
+      <div>
+        <p class="about-text">
+          My journey in Software originally began with an interest in games
+          development. I picked up C++ as my first language and started
+          programming as a hobby. Then I decided to pursue Software Engineering
+          as a career so I enrolled on a software development bootcamp, where I
+          learned the foundations of: HTML, CSS, JavaScript, SQL and Python
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="page-section">
+      <h2>My Skills</h2>
+      <div class="skill-showcase" style="--amount: 8">
+        <div class="programming-language" style="--slot: 1">
+          <img src="assets/PYTHON LOGO.png" alt="Python" draggable="false" />
+          <h3>Python</h3>
+        </div>
+        <div class="programming-language" style="--slot: 2">
+          <img src="assets/GIT LOGO.png" alt="Git" draggable="false" />
+          <h3>Git</h3>
+        </div>
+        <div class="programming-language" style="--slot: 3">
+          <img src="assets/HTML LOGO.png" alt="HTML" draggable="false" />
+          <h3>HTML</h3>
+        </div>
+        <div class="programming-language" style="--slot: 4">
+          <img src="assets/CSS LOGO.png" alt="CSS" draggable="false" />
+          <h3>CSS</h3>
+        </div>
+        <div class="programming-language" style="--slot: 5">
+          <img
+            src="assets/JAVASCRIPT LOGO.png"
+            alt="JavaScript"
+            draggable="false"
+          />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="programming-language" style="--slot: 6">
+          <img src="assets/VS CODE LOGO.png" alt="VS Code" draggable="false" />
+          <h3>VS Code</h3>
+        </div>
+        <div class="programming-language" style="--slot: 7">
+          <img src="assets/MYSQL LOGO.png" alt="MySQL" draggable="false" />
+          <h3>MySQL</h3>
+        </div>
+        <div class="programming-language" style="--slot: 8">
+          <img src="assets/C++ Logo.png" alt="C++" draggable="false" />
+          <h3>C++</h3>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="page-section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div
+          id="project-showcase"
+          data-mouse-down-at="0"
+          data-prev-percentage="0"
+        >
+          <a
+            href="https://github.com/Hoggius/Escape-room"
+            target="_blank"
+            draggable="false"
+            ><img
+              class="project-image"
+              src="assets/forest wallpaper mist.jpeg"
+              alt=""
+              draggable="false"
+            />
+            <div class="overlay-container">
+              <div class="project-overlay">
+                <h3>Escape Room</h3>
+                <p>A text adventure game built using Python</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page-section">
+      <h2>Contact</h2>
+      <div class="contact_text">
+        <p>Send me an Email: <span>jackalexander2024@gmail.com</span></p>
+      </div>
+      <div class="bottom-links">
+        <a href="https://github.com/Hoggius" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/jack-alexander-h-a82b46200"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.hackerrank.com/profile/jackalexander201"
+          target="_blank"
+          ><i class="fa-brands fa-hackerrank"></i
+        ></a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
